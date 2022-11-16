@@ -6,6 +6,7 @@ edition = "2021"
 description = "A wrapper for sha2 library to get hash string with [0-9] & [a-z] & [A-Z] alphabet"
 repository = "https://github.com/pashokitsme/pretty-sha2"
 license = "MPL-2.0"
+keywords = ["sha2", "hash"]
 
 [profile.release]
 strip = true
