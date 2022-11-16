@@ -1,1 +1,1 @@
-Обёртка над крейтом sha2, которая конвертирует 64-байтовый массив в строку из англ. алфавита + цифр
+A wrapper for sha2 library to get hash string with \[0-9\] & \[a-z\] & \[A-Z\] alphabet
