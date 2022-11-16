@@ -1,7 +1,7 @@
 [package]
 name = "pretty-sha2"
 authors = ["pashokitsme <pashamail79@gmail.com>"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "A wrapper for sha2 library to get hash string with [0-9] & [a-z] & [A-Z] alphabet"
 repository = "https://github.com/pashokitsme/pretty-sha2"
