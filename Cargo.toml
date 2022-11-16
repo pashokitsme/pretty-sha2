@@ -1,10 +1,15 @@
 [package]
 name = "pretty-sha2"
-version = "0.1.0"
+authors = ["pashokitsme <pashamail79@gmail.com>"]
+version = "0.1.1"
+edition = "2021"
 description = "A wrapper for sha2 library to get hash string with [0-9] & [a-z] & [A-Z] alphabet"
 repository = "https://github.com/pashokitsme/pretty-sha2"
-license-file = "LICENSE"
-edition = "2021"
+license = "MPL-2.0"
+include = [
+  "readme.md",
+  "LICENSE"
+]
 
 [profile.release]
 strip = true

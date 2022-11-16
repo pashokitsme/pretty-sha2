@@ -3,8 +3,6 @@ A wrapper for sha2 library to get hash string with \[0-9\] & \[a-z\] & \[A-Z\] a
 Code example
 
 ```rust
-use std::hash;
-
 fn main() {
   let some_input = "some string";
   let hashed = pretty_sha2::sha512::gen(some_input);
