@@ -3,7 +3,7 @@ use std::iter::repeat_with;
 
 static ALPHABET: &[u8] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".as_bytes();
 
-pub fn gen<'a, TString>(source: TString) -> String
+pub fn gen<TString>(source: TString) -> String
 where
   TString: AsRef<str>,
 {
@@ -15,6 +15,7 @@ where
     let ch = ALPHABET[index] as char;
     res.push(ch)
   }
+
   res
 }
 
