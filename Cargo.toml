@@ -1,5 +1,5 @@
 [package]
-name = "pretty-hash"
+name = "pretty-sha2"
 version = "0.1.0"
 edition = "2021"
 

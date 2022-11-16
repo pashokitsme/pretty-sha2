@@ -2,7 +2,7 @@
 pub mod tests {
   use std::iter::repeat_with;
 
-  use pretty_hash::sha512;
+  use pretty_sha2::sha512;
 
   const LIMIT: usize = 15;
 
